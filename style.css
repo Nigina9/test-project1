@@ -1,0 +1,75 @@
+/* @font-face {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-size: 400;
+    src: url("fonts/Montserrat-Regular.woff2");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-size: 700;
+    src: url("fonts/Montserrat-Bold.woff2");
+    font-display: swap;
+}
+ */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    font-family: "Montserrat", sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    padding: 220px 85px 116px;
+    color: #515076;
+    margin: 0;
+}
+
+.title-header {
+    font-weight: 400;
+    font-size: 70px;
+    line-height: 78px;
+    text-align: center;
+    color: #515076;
+    margin: 0 0 110px 0;
+}
+
+.product-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 45px;
+    justify-content: center;
+}
+
+.product-list_item {
+    padding: 25px;
+    background-color: #f7f7fa;
+    box-sizing: border-box;
+    width: 340px;
+    height: 573px;
+}
+.img-card{
+    margin-bottom: 30px;
+}
+
+.text-card {
+    color: rgba(165, 163, 185, 1);
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.title-card {
+    color: rgba(81, 80, 118, 1);
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 27px;
+    text-align: left;
+    margin: 0 0 5px 0;
+}
