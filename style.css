@@ -24,6 +24,11 @@ body {
     padding: 220px 85px 116px;
     color: #515076;
     margin: 0;
+    background-image: url("icons/flowers_bg.png");
+    background-repeat: no-repeat;
+    background-position: 240px 0px;
+    margin: 0 auto;
+
 }
 
 .title-header {
