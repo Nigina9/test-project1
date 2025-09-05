@@ -1,0 +1,22 @@
+.compound-list {
+    margin-bottom: 25px;
+}
+
+.compound-list__item {
+    position: relative;
+    padding-left: 15px;
+}
+
+.compound-list__item:not(:last-child) {
+    margin-bottom: 4px;
+}
+
+.compound-list__item::before {
+    content: '';
+    position: absolute;
+    background-image: url('/icons/round_item.svg');
+    left: 1px;
+    top: 7px;
+    width: 7px;
+    height: 7px;
+}

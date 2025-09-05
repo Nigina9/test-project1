@@ -1,0 +1,16 @@
+.wrapper-price {
+    display: flex;
+    justify-content: space-between;
+}
+
+.wrapper-price__rate {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.wrapper-price__value {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+}
